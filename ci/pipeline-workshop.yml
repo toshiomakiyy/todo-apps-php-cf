@@ -33,14 +33,14 @@ resources:
 - name: resource-todo-app
   type: git
   source:
-    uri: https://github.com/shinji62/todo-apps-php-cf.git
+    uri: https://github.com/toshiomakiyy/todo-apps-php-cf.git
     branch: feature/adding_concourse_pipeline
 
 
 - name: deploy-to-pws
   type: cf
   source:
-    api: https://api.run.pivotal.io
+    api: https://api.system.pcf.shinji62.ovh
     username: {{pws-username}}
     password: {{pws-password}}
     organization: {{pws-org}}
