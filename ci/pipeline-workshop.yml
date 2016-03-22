@@ -27,6 +27,7 @@ jobs:
       path: resource-todo-app/
       environment_variables:
         COMPOSER_GITHUB_OAUTH_TOKEN: {{github-token}} 
+      current_app_name: todo_apps_toshiomaki
 
 resources:
 
